@@ -1,2 +1,5 @@
 # terraform_vpc
-Module VPC
+```
+module "terraform_vpc" {
+  source = "github.com/Kaiser016X/terraform_vpc"
+```
