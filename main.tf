@@ -1,7 +1,7 @@
 module "aws_vpc" {
   source                      = "terraform-aws-modules/vpc/aws"
 
-  name                        = var.vpc_name_description[terraform.workspace]
+  name                        = var.vpc_name_description
   cidr                        = "10.10.0.0/16"
 
   azs                         = ["eu-west-3a", "eu-west-3b"]
