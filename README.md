@@ -2,4 +2,21 @@
 ```
 module "terraform_vpc" {
   source = "github.com/Kaiser016X/terraform_vpc"
+}
+
+output "vpc_id" {
+  value = module.terraform_vpc.vpc_id
+}
+
+output "public_subnets" {
+  value       = module.terraform_vpc.public_subnets
+}
+
+output "vpc_cidr_block" {
+  value       = module.terraform_vpc.vpc_cidr_block
+}
+
+output "private_subnets" {
+  value       = module.terraform_vpc.private_subnets
+}
 ```
