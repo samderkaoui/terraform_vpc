@@ -1,5 +1,5 @@
 variable "vpc_name_description" {
-  description = "Nom du VPC"
+  description = "VPC_Test"
   type        = map(string)
   default     = {
     prod      = "VPC_Production"
