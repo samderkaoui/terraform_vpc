@@ -2,6 +2,10 @@
 ```
 module "terraform_vpc" {
   source = "github.com/Kaiser016X/terraform_vpc"
+
+  # Override variables here
+  #vpc_name_description = "coucou"
+
 }
 
 output "vpc_id" {
