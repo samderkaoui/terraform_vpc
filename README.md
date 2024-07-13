@@ -12,6 +12,7 @@ module "terraform_vpc" {
 
 }
 
+#VPC
 output "vpc_id" {
   value = module.terraform_vpc.vpc_id
 }
